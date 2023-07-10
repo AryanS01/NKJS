@@ -1,0 +1,29 @@
+li {
+  margin: 30px;
+  margin-top: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  /* padding-top: 1%; */
+  margin-left: 15%;
+  width: 70%;
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+ul.custom-list li:before {
+  content: "➤";
+  margin-right: 0.5em;
+}
+
+.bg {
+  background-image: url("../../assets/images/background/about-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}

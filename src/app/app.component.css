@@ -1,0 +1,34 @@
+h1 {
+  line-height: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* background-color: #F4A50A; */
+  background: linear-gradient(to right, #ADD8E6, #50c878);
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+
+img {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* logo hexadecimal color codes
+orange: #F4A50A
+text red: #FE0000
+blue: #2673B7
+green: #58AB43
+light blue: #2BAADF
+color red: #E53623 */

@@ -1,0 +1,54 @@
+<!-- <div class="slideshow">
+  <app-slide *ngFor="let slide of slides" [image]="slide"></app-slide>
+</div> -->
+<!-- <div>
+  <div *ngFor="let slide of slides">
+    <img [src]="slide.image" alt="Slide Image">
+  </div>
+</div> -->
+
+<!-- <section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li
+      [id]="slide.id"
+      *ngFor="let slide of slides"
+      tabindex="0"
+      class="carousel__slide"
+    >
+      <img [src]="slide.image" />
+      <div class="carousel__snapper">
+        <a ng-href="{#slide.id}" class="carousel__prev">Go to last slide</a>
+        <a ng-href="{#slide.id}" class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1" class="carousel__navigation-button"
+          >Go to slide 1</a
+        >
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2" class="carousel__navigation-button"
+          >Go to slide 2</a
+        >
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3" class="carousel__navigation-button"
+          >Go to slide 3</a
+        >
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4" class="carousel__navigation-button"
+          >Go to slide 4</a
+        >
+      </li>
+    </ol>
+  </aside>
+</section> -->
+
+
+<div class="main-carousel">
+    <image-slider [slides]="slides"></image-slider>
+  </div>
