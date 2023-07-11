@@ -1,0 +1,41 @@
+/* table {
+    width: 100%;
+} */
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content:space-evenly;
+    gap: 30px;
+}
+
+.child{
+    flex: 0 0 19%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.079);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.child:first-child{
+    flex: 0 0 15%;
+}
+.child:last-child{
+    flex: 0 0 15%;
+}
+
+/* .child > img {
+    object-fit: contain;
+} */
+
+img{
+    /* width: 100%; */
+    max-width: 300px;
+    max-height: 150px;
+}

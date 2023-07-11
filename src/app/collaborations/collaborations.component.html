@@ -1,1 +1,39 @@
-<h1>THIS IS MY COLLABORATIONS PAGE
+<div class="parent" style="background-color: aliceblue;">
+    <div class="child" *ngFor="let logo of logos">
+        <img src={{logo.url}} alt="">
+    </div>
+</div>
+
+<!-- <table>
+    <tr *ngFor="let row of logos">
+        <ng-container *ngFor="let logo of row | slice:0:5">
+            <td>{{logo}}</td>
+        </ng-container>
+    </tr> -->
+    <!-- <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+        <td>Data 4</td>
+        <td>Data 5</td>
+    </tr>
+    <tr>
+        <td>Data 6</td>
+        <td>Data 7</td>
+        <td>Data 8</td>
+        <td>Data 9</td>
+        <td>Data 10</td>
+    </tr>
+    <tr>
+        <td>Data 11</td>
+        <td>Data 12</td>
+        <td>Data 13</td>
+        <td>Data 14</td>
+        <td>Data 15</td>
+    </tr> -->
+<!-- </table> -->
+
+<!-- <div
+        *ngFor="let l of logo;"
+        class="dot"
+      > -->

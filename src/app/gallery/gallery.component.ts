@@ -26,13 +26,22 @@ export class GalleryComponent {
   // myInterval = 3000;
   slides: SlideInterface[]  = [
     {
-      url: '../../assets/images/gallery/gallery1.jpg',
+      url: '../../assets/images/gallery/gallery1.png',
     },
     {
-      url: '../../assets/images/gallery/gallery2.jpg',
+      url: '../../assets/images/gallery/gallery2.png',
     },
     {
-      url: '../../assets/images/gallery/gallery3.jpg',
+      url: '../../assets/images/gallery/gallery3.png',
+    },
+    {
+      url: '../../assets/images/gallery/gallery4.png',
+    },
+    {
+      url: '../../assets/images/gallery/gallery5.png',
+    },
+    {
+      url: '../../assets/images/gallery/gallery6.png',
     }
   ]
 
