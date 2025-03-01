@@ -1,34 +1,67 @@
-h1 {
-  line-height: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-size: 45px;
-  color: red;
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  margin: 0;
+  /* border-radius: 10px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure the pseudo-element does not overflow */
 }
 
-table {
-  border-collapse: collapse;
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  /* background-color: #F4A50A; */
-  background: linear-gradient(to right, #ADD8E6, #50c878);
+  height: 100%;
+  background-image: url('../assets/images/title-background.jpg'); /* Set background image */
+  background-size: cover; /* Ensure the image covers the entire header */
+  background-position: top center; /* Show the top part of the background image */
+  opacity: 0.77; /* Set opacity to 69% */
+  z-index: -1; /* Place the pseudo-element behind the content */
 }
 
-th, td {
-  padding: 8px;
+.logo-container {
+  flex: 0 0 20%;
+  margin-left: 2%; /* Add left margin to move the logo to the right */
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.title-container {
+  flex: 1;
   text-align: center;
 }
 
-
-img {
-  width: 200px;
-  height: auto;
-  max-width: 100%;
+.title-container h1 {
+  margin: 0;
+  font-size: 3em; /* Increased font size */
+  color: white;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
 }
 
-/* logo hexadecimal color codes
-orange: #F4A50A
-text red: #FE0000
-blue: #2673B7
-green: #58AB43
-light blue: #2BAADF
-color red: #E53623 */
+/* app-navbar {
+  margin-top: 20px;
+  background-color: #32CD32;
+  padding: 10px;
+  border-radius: 5px;
+} */
+
+app-navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  /* border-radius: 5px; */
+  transition: background-color 0.3s;
+}
+
+app-navbar a:hover {
+  background-color: #FF4500; /* OrangeRed */
+}

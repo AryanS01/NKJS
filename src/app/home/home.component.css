@@ -1,0 +1,42 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    background-color: #f4a50a;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .about-section, .services-section, .gallery-section, .contact-section {
+    margin: 40px 0;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2673b7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #1a4f7a;
+  }
